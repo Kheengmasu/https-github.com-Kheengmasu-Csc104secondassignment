@@ -3,7 +3,7 @@ ussd = input('please type in your banks USSD code: ')
 def menu():
     option = int(input('1. Check your bal\n2. Transfers\n3. Airtime\n4.Transaction History\n\nPlease select an option: '))
     if(option == 1):
-        print('Your acc bal is 284736465 naira')
+        print('Your acc bal is 875327 naira')
         main = int(input('ENTER 1 TO RETURN TO MENU\nENTER 2 TO END: '))
         if(main == 1):
             menu()
